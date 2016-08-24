@@ -1,0 +1,4 @@
+# Files we shouldn't lint
+app/vendor/**/*
+**/*.scss
+**/*.md

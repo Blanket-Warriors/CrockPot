@@ -1,5 +1,5 @@
-var pg = require('pg');
-var connectionString = require('../config.js').database.url;
+var pg = require("pg");
+var connectionString = require("../config.js").database.url;
 
 var client = new pg.Client(connectionString);
 
